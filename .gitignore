@@ -6,3 +6,7 @@ node_modules
 /.settings
 package-lock.json
 .DS_Store
+/BUILD_LOCAL.md
+/electron-builder-win32-local.json
+/electron-builder-win-arm64-local.json
+/electron-builder-win-local.json

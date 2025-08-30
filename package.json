@@ -11,6 +11,10 @@
   "scripts": {
     "start": "electron .",
     "sync": "node ./sync.cjs",
+    "build": "electron-builder --publish never",
+    "build-win": "electron-builder --config electron-builder-win-local.json --publish never",
+    "build-win32": "electron-builder --config electron-builder-win32-local.json --publish never",
+    "build-win-arm64": "electron-builder --config electron-builder-win-arm64-local.json --publish never",
     "release-win": "electron-builder --config electron-builder-win.json --publish always",
     "release-win32": "electron-builder --config electron-builder-win32.json --publish always",
     "release-win-arm64": "electron-builder --config electron-builder-win-arm64.json --publish always",
